@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Ciberseguridad SENATI</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+<header>
+  <img src="assets/logo-senati.png" alt="Logo SENATI" class="logo" />
+  <h1>Ciberseguridad - SENATI</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="contenido.html">Plan de Estudios</a></li>
+      <li><a href="temas.html">Temas Clave</a></li>
+      <li><a href="recursos.html">Recursos</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Contacto</h2>
+  <p>Por favor llena el siguiente formulario para contactarnos.</p>
+
+  <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+    <label for="name">Nombre:</label><br />
+    <input type="text" id="name" name="Nombre" required /><br /><br />
+
+    <label for="email">Correo electrónico:</label><br />
+    <input type="email" id="email" name="Correo" required /><br /><br />
+
+    <label for="phone">Número de teléfono:</label><br />
+    <input type="tel" id="phone" name="Teléfono" pattern="[0-9]{9,15}" required /><br /><br />
+
+    <label for="message">Mensaje:</label><br />
+    <textarea id="message" name="Mensaje" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Enviar</button>
+  </form>
+</main>
+
+<footer>
+    <div class="social">
+      <a href="https://wa.me/5168454624" target="_blank"><img src="IMG/whatsapplogo.jpeg" alt="WhatsApp" /></a>
+      <a href="https://instagram.com/senati_oficial" target="_blank"><img src="IMG/instagram logo.jpeg" alt="Instagram" /></a>
+      <a href="https://www.facebook.com/SenatiOficial/?locale=es_LA" target="_blank"><img src="IMG/facebook logo.png" alt="Facebook" /></a>
+    </div>
+    <p>&copy; 2025 Ciberseguridad SENATI</p>
+  </footer>
+</body>
+</html>
+
